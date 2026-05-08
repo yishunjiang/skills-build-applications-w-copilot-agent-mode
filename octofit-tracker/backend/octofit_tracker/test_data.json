@@ -1,0 +1,21 @@
+{
+  "users": [
+    {"id": "1", "name": "John Doe", "email": "john.doe@example.com"},
+    {"id": "2", "name": "Jane Smith", "email": "jane.smith@example.com"}
+  ],
+  "teams": [
+    {"id": "1", "name": "Team Alpha", "members": ["1", "2"]}
+  ],
+  "activities": [
+    {"id": "1", "user_id": "1", "type": "Running", "duration": 30},
+    {"id": "2", "user_id": "2", "type": "Cycling", "duration": 45}
+  ],
+  "leaderboard": [
+    {"id": "1", "user_id": "1", "points": 100},
+    {"id": "2", "user_id": "2", "points": 150}
+  ],
+  "workouts": [
+    {"id": "1", "name": "Morning Run", "description": "A quick morning run to start the day."},
+    {"id": "2", "name": "Evening Yoga", "description": "Relaxing yoga session to end the day."}
+  ]
+}
